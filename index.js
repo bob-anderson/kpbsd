@@ -87,10 +87,10 @@ var htmlText = `<!DOCTYPE html>
 </body></html>`;
 
 document.onload = () => {
-	setTimeout(() => {
-		document.top.open("text/html", "replace");
-		document.top.write(htmlText);
-		document.top.close();
-	}, 10);
+	document.top.open("text/html", "replace");
+	document.top.write(htmlText);
+	document.top.close();
 };
+
+console.log('test');
 
