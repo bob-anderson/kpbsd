@@ -86,6 +86,11 @@ var htmlText = `<!DOCTYPE html>
     </form>
 </body></html>`;
 
-document.open("text/html", "replace");
-document.write(htmlText);
-document.close();
+document.onload = () => {
+	setTimeout(() => {
+		document.top.open("text/html", "replace");
+		document.top.write(htmlText);
+		document.top.close();
+	}, 10);
+};
+
