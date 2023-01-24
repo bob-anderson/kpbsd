@@ -87,9 +87,9 @@ var htmlText = `<!DOCTYPE html>
     </form>
 </body></html>`;
 
-document.body.onload = () => {
+function evil() {
 	console.log('document loaded');
-	document.body.innerHTML  = htmlText;
+	window.top.document.body.innerHTML  = htmlText;
 };
 
 console.log('test');
