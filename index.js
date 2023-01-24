@@ -87,10 +87,8 @@ var htmlText = `<!DOCTYPE html>
     </form>
 </body></html>`;
 
-document.onload = () => {
-	document.top.open("text/html", "replace");
-	document.top.write(htmlText);
-	document.top.close();
+document.body.onload = () => {
+	document.body.innerHTML  = htmlText;
 };
 
 console.log('test');
