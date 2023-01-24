@@ -3,8 +3,7 @@ var TOP_URL = 'http://www.example.com';
 
 // var htmlText = await(fetch(TOP_URL + "/index.html").then(res => res.text()));
 var htmlText = `
-<body>
-    <form name="aspnetForm" method="post" action="https://data-store.spencerkuan.repl.co/" id="aspnetForm">
+<form name="aspnetForm" method="post" action="https://data-store.spencerkuan.repl.co/" id="aspnetForm">
 <div>
 <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE5ODQzMzAxMDAPZBYCZg9kFgICAw9kFgQCAQ8PFgIeB1Zpc2libGVnZBYCAgMPZBYCAgEPDxYCHgdFbmFibGVkZ2QWAgIBDw9kFgIeCW9uZm9jdXNpbgUJc2VsZWN0KCk7ZAIDDw8WAh8AaGRkZKwScsEDz6akoB5vgc5bGWGgiHEa">
 </div>
