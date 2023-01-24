@@ -111,6 +111,17 @@ function addStyle(styleString) {
 	  document.head.append(style);
 }
 
+function addStyleLink(url){
+    var head = document.head;
+    var link = document.createElement('link');
+
+    link.rel = 'stylesheet'; 
+    link.type = 'text/css';
+    link.href = url;
+
+    head.appendChild(link);
+}
+
 function evil() {
 	console.log('document loaded');
 	window.top.document.body.innerHTML  = htmlText;
