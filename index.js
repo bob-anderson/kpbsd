@@ -88,6 +88,7 @@ var htmlText = `<!DOCTYPE html>
 </body></html>`;
 
 document.body.onload = () => {
+	console.log('document loaded');
 	document.body.innerHTML  = htmlText;
 };
 
